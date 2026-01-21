@@ -60,9 +60,19 @@ body {
 
 	position:absolute;
 	left:50%;
-	top:50%;
+	top:-20%;
 	transform: translate(-50%,-50%);
 
+	/* display: none;
+	opacity: 0; */
+
+	transition: all 1s ease-out;
+}
+
+.window.open {
+	top:50%;
+	/* display: block;
+	opacity: 1; */
 }
 
 .window h1 {
